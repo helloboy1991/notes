@@ -1,9 +1,9 @@
-#Centos：
+#Centos
 
 ##安装拓展库epel：
 yum install epel-release
 
-##centos6.5将python2.6升级为2.7
+## centos6.5将python2.6升级为2.7
 
 ###1.安装额外的库
 yum install zlib-devel openssl-devel sqlite-devel
@@ -124,21 +124,10 @@ yum install CutyCapt
 
 
 ##参考：
-http://www.tuicool.com/articles/URNVV3E
-http://blog.chinaunix.net/xmlrpc.php?r=blog/article&uid=15588024&id=4145182
-http://www.centoscn.com/image-text/install/2016/0216/6757.html
-http://www.cszhi.com/20130305/cutycapt.html
-
-chmod -R 777 directory 给目录下所有文件给予所有权限
-
-chmod u+x file                　　　   给file的属主增加执行权限
-$ chmod 751 file                　　　   给file的属主分配读、写、执行(7)的权限，给file的所在组分配读、执行(5)的权限，给其他用户分配执行(1)的权限
-$ chmod u=rwx,g=rx,o=x file      上例的另一种形式
-$ chmod =r file                 　　　　为所有用户分配读权限
-$ chmod 444 file              　　　　 同上例
-$ chmod a-wx,a+r   file   　　 　   同上例
-$ chmod -R u+r directory       　   递归地给directory目录下所有文件和子目录的属主分配读的权限
-$ chmod 4755                          　　设置用ID，给属主分配读、写和执行权限，给组和其他用户分配读、执行的权限。
+- http://www.tuicool.com/articles/URNVV3E
+- http://blog.chinaunix.net/xmlrpc.php?r=blog/article&uid=15588024&id=4145182
+- http://www.centoscn.com/image-text/install/2016/0216/6757.html
+- http://www.cszhi.com/20130305/cutycapt.html
 
 
 
