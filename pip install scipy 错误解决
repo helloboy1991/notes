@@ -1,6 +1,0 @@
-pip install scipy 错误解决
-
-解决方法：
-yum install openblas-devel
-yum install blas-devel
-yum install lapack-devel
