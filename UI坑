@@ -1,0 +1,7 @@
+UI开发踩过的坑：
+
+  1.windows下npm安装第三方包，存在默认路径问题
+    问题：导致全局安装的第三方程序无法命令行直接访问
+    解决：修改npmrc，配置正确的路径
+    http://elickzhao.github.io/2016/12/Windows%20%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%AE%BE%E7%BD%AENodejs%20NPM%E5%85%A8%E5%B1%80%E8%B7%AF%E5%BE%84/
+    https://segmentfault.com/q/1010000004992727
